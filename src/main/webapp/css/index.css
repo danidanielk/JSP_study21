@@ -1,0 +1,120 @@
+@charset "EUC-KR";
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+@font-face {
+	font-family: "soso";
+	src: url("Imsoso.ttf");
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+#siteTitleTbl {
+	font-family: "soso";
+	width: 100%;
+	border-spacing: 0px;
+}
+
+#siteTitle {
+	background: teal;
+	height: 60px;
+}
+
+#siteTitle a {
+	font-size: 40pt;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+}
+
+#siteMenu {
+	font-family: "soso";
+	background-color: pink;
+}
+
+#siteMenu a {
+	font-size: 25pt;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+}
+
+#siteContentTbl {
+	font-family: "soso";
+	width: 100%;
+	background-color: black;
+}
+
+#siteContent {
+	font-size: 20pt;
+	font-weight: 300;
+	color: white;
+}
+
+#siteLoginTbl {
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	top: 104px;
+	right: 0px;
+	background-color: teal;
+}
+
+#homeImg {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 300px;
+	height: 300px;
+}
+
+#dbResult {
+	font-family: "soso";
+	font-size: 18pt;
+	font-weight: 500;
+	position: fixed;
+	top: 70px;
+	right: 20px;
+	color: yellow;
+}
+
+#loginSuccessTbl {
+	font-family: "soso";
+	font-size: 18pt;
+	font-weight: 500;
+	color: white;
+}
+
+#loginSuccessTbl img {
+	width: 80px;
+}
+
+#loginSuccessTbl button {
+	font-family: "soso";
+	font-size: 20pt;
+	background-color: white;
+	border: pink solid 5px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+@charset "EUC-KR";
+#writeBoardTbl{
+	height: 100px;
+}
+.writeArea{
+	resize: none;
+	width: 500px;
+	height: 100px;
+	background-image: url("../img/trumpet.jpg");
+	font-family: "soso";
+	font-size: 20pt;
+	border: pink solid 5px;
+	border-radius: 10px;
+}
+.writeBtn{
+	background-color: transparent;
+	border: pink solid 5px;
+	border-radius: 10px;
+	font-family: "soso";
+	font-size: 25pt;
+	font-weight: 600;
+	color: white;
+	width: 100px;
+	height: 115px;
+	cursor: pointer;
+}
+.boardContentTbl{
+	width: 700px;
+	height: 100px;
+	border: pink solid 5px;
+	border-radius: 10px;
+	background-color: pink;
+	box-shadow: white 5px 5px 5px;
+	margin-top: 20px;
+}
+.boardContentTbl img{
+	max-width: 90%;
+	box-shadow: black 3px 3px 3px;	
+}
+.boardPhoto{
+	width: 100px;
+	padding-top: 5px;
+}
+.boardWriter{
+	padding-left: 10px;
+	font-weight: 700;
+	height: 20px;
+	font-size: 35px;
+	color: black;
+}
+.boardWhen{
+	height: 20px;
+	color: black;
+	font-size: 15pt;
+}
+.boardText{
+	padding: 15px;
+	color: black;
+	word-break: break-all;
+}
+.boardContentTbl button{
+	background-color: transparent;
+	border: none;
+	font-family: "soso";
+	font-size: 25px;
+	font-weight: 600;
+	margin: 5px;
+	cursor: pointer;
+}
+#boardL{
+	position: fixed;
+	font-size: 50pt;
+	font-weight: 900;
+	color: white;
+	top: 500px;
+	left: 50px;
+	text-decoration: none;
+}
+#boardR{
+	position: fixed;
+	font-size: 50pt;
+	font-weight: 900;
+	color: white;
+	top: 500px;
+	right: 50px;
+	text-decoration: none;
+}
+#searchInput{
+	background-color: pink;
+	border: pink solid 5px;
+	border-radius: 5px;
+	width: 400px;
+	box-shadow: white 3px 3px 3px;
+	font-family: "soso";
+	font-size: 18pt;
+	color: white;
+}
+#searchBtn{
+	background-color: transparent;
+	border: pink solid 3px;
+	border-radius: 3px;
+	font-family: "soso";
+	font-weight: 600;
+	font-size: 16pt;
+	color: white;
+	cursor: pointer;
+	height: 50px;
+	width: 100px;
+}
